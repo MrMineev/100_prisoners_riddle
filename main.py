@@ -25,5 +25,5 @@ for i in range(Q):
     else:
         die += 1
 
-print(f"[LIVE]: {live}")
-print(f"[DIE]: {die}")
+print(f"[LIVE]: {live / Q * 100}%")
+print(f"[DIE]: {die / Q * 100}%")
