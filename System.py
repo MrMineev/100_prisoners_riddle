@@ -12,7 +12,7 @@ class System:
         index = 1
         for prisoner in self.prisoners:
             found = False
-            for i in range(50):
+            for i in range(len(self.boxes) // 2):
                 box = prisoner.guess()
                 value = self.boxes[box - 1]
                 prisoner.report(value)
