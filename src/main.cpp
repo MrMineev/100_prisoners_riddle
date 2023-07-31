@@ -9,8 +9,6 @@ int main(int argc, char* argv[]) {
   int Q = stoi(argv[1]);
   int N = stoi(argv[2]);
 
-  cout << "N: " << N << " Q: " << Q << endl;
-
   int live = 0, die = 0;
 
   for (int i = 0; i < Q; i++) {
@@ -24,7 +22,6 @@ int main(int argc, char* argv[]) {
     prison.shuffle();
 
     bool res = prison.run();
-    cout << "res: " << res << endl;
     if (res == true) {
       live++;
     } else {
@@ -33,6 +30,7 @@ int main(int argc, char* argv[]) {
   }
 
   cout << "LIVE: " << live << " DIE: " << die << endl;
+  return 0;
 }
 
 
