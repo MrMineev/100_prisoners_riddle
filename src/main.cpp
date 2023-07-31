@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
     }
   }
 
-  cout << "LIVE: " << live << " DIE: " << die << endl;
+  cout << live << " " << die << endl;
   return 0;
 }
 
