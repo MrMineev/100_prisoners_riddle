@@ -21,14 +21,14 @@ index = []
 data = []
 data2 = []
 
-N_LIMIT = 1000
+N_LIMIT = 10000
 for N in range(1, N_LIMIT, 20):
     s = 0
     for i in range(N // 2 + 1, N + 1):
         s += 1 / i
     data2.append((1 - s) * 100)
 
-    Q = 200
+    Q = 500
 
     '''
     live, die = 0, 0
