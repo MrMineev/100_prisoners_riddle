@@ -59,7 +59,7 @@ for N in range(1, N_LIMIT, 20):
     # Update the plot after each iteration
     plt.clf()
     plt.plot(index, data, label='Percentage of Survivors')
-    plt.plot(index, data2, label='Estimation', marker='o', linestyle='dashed')
+    plt.plot(index, data2, label='Estimation', linestyle='-.')
     plt.xlabel('N')
     plt.ylabel('Percentage of Survivors')
     plt.title('Percentage of Survivors vs. N')
