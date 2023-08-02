@@ -1,4 +1,3 @@
 # 100_prisoners_riddle
 
-<img width="577" alt="Screenshot 2023-07-31 at 10 08 49" src="https://github.com/MrMineev/100_prisoners_riddle/assets/112898086/eafae432-e4b1-49b4-bceb-4eb34b30ff06">
-
+<img width="588" alt="Screenshot 2023-08-02 at 19 41 58" src="https://github.com/MrMineev/100_prisoners_riddle/assets/112898086/005716e1-958b-49db-977e-b1f7035ae8fc">
